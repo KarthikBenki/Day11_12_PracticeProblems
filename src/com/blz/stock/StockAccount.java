@@ -44,8 +44,8 @@ public class StockAccount {
 		for(int i =0;i<arrayList.size();i++) {
 			Stock s = arrayList.get(i);
 			double totalPrice = s.getNumOfShare()*s.getSharePrice();
-			sum = sum+totalPrice;
-			System.out.println("stock name = "+s.getStockNames()+"\nstock price = "+s.getSharePrice()+"\nTotal price of stock = "+totalPrice+"\n");
+			totalPrice = sum+totalPrice;
+			System.out.println("stock name = "+s.getStockNames()+"\nnumber of shares = "+s.getNumOfShare()+"\nstock price = "+s.getSharePrice()+"\nTotal price of stock = "+totalPrice+"\n");
 			}
 	}
 
