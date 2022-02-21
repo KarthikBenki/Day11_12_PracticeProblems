@@ -1,4 +1,4 @@
-package com.blz.stock;
+package com.blz.account;
 
 import java.util.Scanner;
 
