@@ -6,6 +6,11 @@ public class Stock {
 	private Double numOfShare;
 	private Double sharePrice;
 	
+	
+	public Stock() {
+		super();
+	}
+
 	//Parameterized constructor
 	public Stock(String stockNames, Double numOfShare, Double sharePrice) {
 		super();
@@ -38,14 +43,5 @@ public class Stock {
 	public void setSharePrice(Double sharePrice) {
 		this.sharePrice = sharePrice;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
