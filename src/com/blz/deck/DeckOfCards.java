@@ -57,10 +57,10 @@ public class DeckOfCards {
     }
 
     public static void main(String[] args) {
-	DeckOfCards deckOfCards = new DeckOfCards();
-	deckOfCards.alignCards();
-	String[] deck = deckOfCards.suffleCards();
-	deckOfCards.displayCards(deck);
+	DeckOfCards player = new DeckOfCards();
+	player.alignCards();
+	String[] deck = player.suffleCards();
+	player.displayCards(deck);
 
     }
 
