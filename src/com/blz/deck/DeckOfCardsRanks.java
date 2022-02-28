@@ -1,5 +1,6 @@
 package com.blz.deck;
-import java.util.*;
+
+import java.util.Random;
 
 public class DeckOfCardsRanks {
     int suit;
@@ -84,6 +85,7 @@ public class DeckOfCardsRanks {
                 return "";
         }
     }
+
     public static void main(String[] args) {
         DeckOfCardsRanks dc = new DeckOfCardsRanks();
         for (int playerNumber = 1; playerNumber <= 4; playerNumber++) {
