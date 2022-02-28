@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Account {
     static Scanner scanner = new Scanner(System.in);
     ArrayList<Stock> arrayList = new ArrayList<>();
-    static double balance = 1000;
+    static double balance = 10000000;
 
     public void addStock() {
         Stock stock;

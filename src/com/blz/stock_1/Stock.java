@@ -38,6 +38,7 @@ public class Stock {
         this.totalSharePrice = totalSharePrice;
     }
 
+
     @Override
     public String toString() {
         return "Stock{" +
